@@ -1,3 +1,3 @@
 #  🎄 Advent of Code 🎄
 
-Advent of code with JAvascript and Python solutions.
+Advent of code with Javascript and Python solutions.
