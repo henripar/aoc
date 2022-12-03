@@ -1,5 +1,5 @@
 let fs = require('fs');
-const input = fs.readFileSync('./input02.txt', 'utf-8').toString();
+const input = fs.readFileSync('../input.txt', 'utf-8').toString();
 
 const playsArray = input.split('\n');
 
