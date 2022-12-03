@@ -7,7 +7,7 @@ Advent of code with Javascript and Python solutions.
 ### Javascript
 
 [![Day](https://badgen.net/badge/01/%E2%98%85%20%E2%98%85/green)](2022/01/javascript)
-[![Day](https://badgen.net/badge/02/%E2%98%85%20%E2%98%85/green)](2022/02)
+[![Day](https://badgen.net/badge/02/%E2%98%85%20%E2%98%85/green)](2022/02/javascript)
 [![Day](https://badgen.net/badge/03/%E2%98%85%E2%98%85/green)](2022/03)
 ![Day](https://badgen.net/badge/04/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/05/%E2%98%86%E2%98%86/gray)
@@ -35,8 +35,8 @@ Advent of code with Javascript and Python solutions.
 ### Python
 
 
-[![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/green)](src/day01)
-![Day](https://badgen.net/badge/02/%E2%98%86%E2%98%86/gray)
+[![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/green)](2022/01/python)
+[![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/green)](2022/02/python)
 ![Day](https://badgen.net/badge/03/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/04/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/05/%E2%98%86%E2%98%86/gray)
