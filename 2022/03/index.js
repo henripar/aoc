@@ -3,22 +3,22 @@ const input = fs.readFileSync('./input.txt', 'utf-8').toString();
 
 const backpackItemsList = input.split('\n');
 
-function splitStrinFromHalf(str, index) {
+// Helpers
+
+const splitStringFromHalf = (str, index) => {
   const result = [str.slice(0, index), str.slice(index)];
 
   return result;
-}
+};
 
-function findCommonCharacters(s1, s2) {
-  var commonCharacter = '';
-
+const findCommonCharacters = (s1, s2) => {
   for (let i in s1) {
     let commonChar = s2.includes(s1[i]) ? s1[i] : false;
     if (commonChar != '') {
       return commonChar;
     }
   }
-}
+};
 
 let countPoints = (letter) => {
   const alpha = Array.from(Array(26)).map((e, i) => i + 65);
@@ -37,18 +37,16 @@ let countPoints = (letter) => {
   }
 };
 
-// console.log(playsArray);
+// Solution for Part 1
 
 let allPoints = 0;
 
 for (const backpack of backpackItemsList) {
-  console.log(backpack.length);
   let middle = Math.floor(backpack.length / 2);
-  let [firstCompartment, secondCompartment] = splitStrinFromHalf(
+  let [firstCompartment, secondCompartment] = splitStringFromHalf(
     backpack,
     middle
   );
-  console.log(firstCompartment, secondCompartment);
 
   let cc = findCommonCharacters(firstCompartment, secondCompartment);
 

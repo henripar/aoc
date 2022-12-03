@@ -19,12 +19,10 @@ let countPoints = (letter) => {
   const alphabetLowercase = alphabetCapital.map((a) => a.toLocaleLowerCase());
   if (alphabetCapital.includes(letter)) {
     const points = alphabetCapital.indexOf(letter, 0) + 27;
-    console.log('Point = ' + points);
     return points;
   }
   if (alphabetLowercase.includes(letter)) {
     const points = alphabetLowercase.indexOf(letter, 0) + 1;
-    console.log('point = ' + points);
     return points;
   }
 };
@@ -40,7 +38,6 @@ const findSumOfAuthenticationBadges = (input) => {
       let common = findCommonCharacters(group[0], group[1], group[2]);
       let pointsToAdd = countPoints(common);
       points += pointsToAdd;
-      console.log(points);
       group = [];
     }
   }
