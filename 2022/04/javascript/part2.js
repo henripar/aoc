@@ -3,8 +3,6 @@ const input = fs.readFileSync('../input.txt', 'utf-8').toString();
 
 let assignmentPairs = input.split('\n');
 
-console.log(assignmentPairs);
-
 assignmentPairs = assignmentPairs.map((assignmentPair) =>
   assignmentPair.split(',')
 );
