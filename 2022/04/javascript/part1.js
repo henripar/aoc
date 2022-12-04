@@ -16,7 +16,7 @@ for (const assignmentPair of assignmentPairs) {
   let assignment2start = +assignmentPair[1].split('-')[0];
   let assignment2end = +assignmentPair[1].split('-')[1];
 
-  // Check if first fully contains the other
+  // Check if first fully contains the second
 
   if (
     assignment1start <= assignment2start &&
@@ -28,7 +28,7 @@ for (const assignmentPair of assignmentPairs) {
     );
   }
 
-  // Check if second fully contains the other
+  // Check if second fully contains the first
   else if (
     assignment2start <= assignment1start &&
     assignment2end >= assignment1end
