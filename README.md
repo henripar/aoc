@@ -11,7 +11,7 @@ Advent of code with Javascript and Python solutions.
 [![Day](https://badgen.net/badge/03/%E2%98%85%E2%98%85/green)](2022/03/javascript)
 [![Day](https://badgen.net/badge/04/%E2%98%85%E2%98%85/green)](2022/04/javascript)
 [![Day](https://badgen.net/badge/05/%E2%98%85%E2%98%85/green)](2022/05/javascript)
-![Day](https://badgen.net/badge/06/%E2%98%86%E2%98%86/gray)
+[![Day](https://badgen.net/badge/06/%E2%98%85%E2%98%85/green)](2022/06/javascript)
 ![Day](https://badgen.net/badge/07/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
